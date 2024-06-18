@@ -41,11 +41,6 @@ Clone the repository:
 
     git clone <https://github.com/Abdelrhman-Abdelmoaty22/Cosmetic-Boutique-Website/tree/main>
 
-    
-Install dependencies:
-
-    pip install -r requirements.txt
-
 Configure the database:
 
     Set up a local database and update the SQLALCHEMY_DATABASE_URI in the Flask app configuration (app.py) accordingly.
