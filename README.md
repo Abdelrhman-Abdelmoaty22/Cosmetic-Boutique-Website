@@ -1,8 +1,9 @@
 # Cosmetic-Boutique-Website
-#Welcome to the Cosmetic Boutique website! This platform is designed to showcase a variety of cosmetic products and brands offered by our merchant. Here's a guide on how to navigate and use the website effectively:
+Welcome to the Cosmetic Boutique website! This platform is designed to showcase a variety of cosmetic products and brands offered by our merchant. Here's a guide on how to navigate and use the website effectively:
 
-#Features:
-@Home Page:
+Features:
+
+Home Page:
 
 Upon visiting the website, users are greeted with the home page featuring the name "Cosmetic Boutique."
 The home page displays the total number of products and brands available in our inventory.
