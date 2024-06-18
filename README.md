@@ -39,7 +39,7 @@ Here's how you can set up the project locally:
 
 Clone the repository:
 
-    git clone <repository-url>
+    git clone <https://github.com/Abdelrhman-Abdelmoaty22/Cosmetic-Boutique-Website/tree/main>
 
     
 Install dependencies:
