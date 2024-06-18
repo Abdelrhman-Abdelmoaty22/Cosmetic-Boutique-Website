@@ -3,23 +3,25 @@ Welcome to the Cosmetic Boutique website! This platform is designed to showcase 
 
 Features:
 
-Home Page:
+  1. Home Page:
 
-Upon visiting the website, users are greeted with the home page featuring the name "Cosmetic Boutique."
-The home page displays the total number of products and brands available in our inventory.
-Navigation Sidebar:
+    * Upon visiting the website, users are greeted with the home page featuring the name "Cosmetic Boutique."
+    * The home page displays the total number of products and brands available in our inventory.
+  
+  2. Navigation Sidebar:
 
-The sidebar contains links to different sections of the website:
-Home: Navigate back to the home page.
-Brands: View a list of all available brands.
-Products: Explore our range of cosmetic products.
-Add Product: For administrators to add new products to the inventory.
-Add Brand: For administrators to add new brands to the inventory.
-Log out: Log out of the website.
-Brand Page:
+    * The sidebar contains links to different sections of the website:
+      * Home: Navigate back to the home page.
+      * Brands: View a list of all available brands.
+      * Products: Explore our range of cosmetic products.
+      * Add Product: For administrators to add new products to the inventory.
+      * Add Brand: For administrators to add new brands to the inventory.
+      * Log out: Log out of the website.
+      
+  3. Brand Page:
 
-Users can click on the "Brands" link in the sidebar to access a page listing all available brands.
-Each brand is displayed along with its origin.
+    * Users can click on the "Brands" link in the sidebar to access a page listing all available brands.
+    * Each brand is displayed along with its origin.
 Product Page:
 
 Clicking on the "Products" link in the sidebar leads users to a page showcasing all available products.
