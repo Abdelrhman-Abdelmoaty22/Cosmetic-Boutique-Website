@@ -1,0 +1,32 @@
+{% extends base_template %}
+
+{% block content %}
+<h1>Add a New Product</h1>
+<div class="products-container">
+    <form action="{{ url_for('add_product', admin=admin) }}" method="post" class="products-form">
+        <label for="name">Product Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        
+        <label for="kind">Kind:</label>
+        <input type="text" id="kind" name="kind"><br>
+        
+        <label for="description">Description:</label>
+        <input type="text" id="description" name="description"><br>
+        
+        <label for="expire_date">Expire Date:</label>
+        <input type="date" id="expire_date" name="expire_date"><br>
+        
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="price" required><br>
+        
+        <label for="brand_id">Brand:</label>
+        <select id="brand_id" name="brand_id">
+            {% for brand in brands %}
+            <option value="{{ brand.id }}">{{ brand.name }}</option>
+            {% endfor %}
+        </select><br>
+        
+        <button type="submit" class="product-btn">Add Product</button>
+    </form>
+</div>
+{% endblock %}

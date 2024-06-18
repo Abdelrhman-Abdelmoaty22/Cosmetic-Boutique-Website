@@ -1,0 +1,17 @@
+{% extends base_template %}
+
+{% block content %}
+<h1>Our Products</h1>
+<ul>
+    {% for product in products %}
+    <li>
+        <a href="{{ url_for('show_product', id=product.id, admin=admin) }}">View {{ product.name }}</a><br>
+        Brand: {% if product.brand %}
+        <a href="{{ url_for('brand_details', id=product.brand_id, admin=admin) }}">{{ product.brand.name }}</a>
+        {% else %}
+        Not specified
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}

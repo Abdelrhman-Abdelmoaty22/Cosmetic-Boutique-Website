@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Cosmetic Boutique{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <aside class="sidebar">
+        <h1>Cosmetic Boutique</h1>
+        <nav>
+            <a href="{{ url_for('home',admin=admin) }}">Home</a>
+            <a href="{{ url_for('show_products',admin=admin) }}">Products</a>
+            <a href="{{ url_for('show_brands',admin=admin) }}">Brands</a>
+            <a href="{{url_for('add_product',admin=admin)}}" >add product</a>
+            <a href="{{url_for('add_brand',admin=admin)}}" >add brand</a>
+            <a href="{{ url_for('login') }}">Log out</a>
+        </nav>
+        <div class="footer">
+            <p>© 2024 Cosmetic Boutique</p>
+        </div>
+    </aside>
+    <main class="content">
+        {% block content %}
+        <!-- Default content can go here if you want something to show when other templates don't override this block -->
+        {% endblock %}
+    </main>
+</body>
+</html>

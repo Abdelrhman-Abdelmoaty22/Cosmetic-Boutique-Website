@@ -1,0 +1,19 @@
+{% extends 'base_generic.html' %}
+
+{% block content %}
+<h1>Brand Details</h1>
+<div>
+    <h2>{{ brand.name }}</h2>
+    <p>Origin: {{ brand.origin }}</p>
+    <h3>Products:</h3>
+    <ul>
+        {% for product in brand.products %}
+        <li>
+            <a href="{{ url_for('show_product', id=product.id,admin=admin) }}">{{ product.name }}</a> 
+        </li>
+        {% else %}
+        <li>No products available for this brand.</li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign UP</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="registration-container">
+    <form action="{{ url_for('signup') }}" method="post" class="registration-form">
+        <label for="">name:</label>
+        <input type="text" name="name" id="confirm-password">
+        
+                <label for="">username:</label>
+                <input type="text" name="uname"id="username">
+            
+            
+                <label for="">password:</label>
+                <input type="password" id="password" name="pass">
+            
+            
+                
+                <button type="submit" class="register-btn">Register</button>
+    </form>
+    {% if error %}
+            <p class="error">{{ error }}</p>
+    {% endif %}
+</div>
+</body>
+</html>

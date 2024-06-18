@@ -1,0 +1,11 @@
+{% extends base_template %}
+
+{% block content %}
+<h1>Our Brands</h1>
+<ul>
+    {% for brand in brands %}
+    <li>
+        <a href="{{ url_for('brand_details', id=brand.id, admin=admin) }}">{{ brand.name }}</a>
+    </li>
+    {% endfor %}
+{% endblock %}

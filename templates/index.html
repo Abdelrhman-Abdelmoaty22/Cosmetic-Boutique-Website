@@ -1,0 +1,6 @@
+{% extends base_template %}
+{% block content %}
+<h1>Welcome to Cosmetic Boutique</h1>
+<p>There are {{ total_brands }} brands and {{ total_products }} products available.</p>
+<p>Explore our <a href="{{ url_for('show_brands',admin=admin) }}">Brands</a> and <a href="{{ url_for('show_products',admin=admin) }}">Products</a>.</p>
+{% endblock %}
