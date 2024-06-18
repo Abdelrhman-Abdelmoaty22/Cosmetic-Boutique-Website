@@ -22,45 +22,52 @@ Features:
 
     * Users can click on the "Brands" link in the sidebar to access a page listing all available brands.
     * Each brand is displayed along with its origin.
-Product Page:
 
-Clicking on the "Products" link in the sidebar leads users to a page showcasing all available products.
-Each product is displayed along with its name, brand, and expiration date.
-Users can click on a product to view detailed information about it.
-Product Details Page:
+  4. Product Page:
 
-When a user clicks on a product from the product list, they are directed to a page displaying detailed information about that product.
-This page includes the product name, brand, and expiration date.
+    * Clicking on the "Products" link in the sidebar leads users to a page showcasing all available products.
+    * Each product is displayed along with its name, brand, and expiration date.
+    * Users can click on a product to view detailed information about it.
+  5. Product Details Page:
+
+    * When a user clicks on a product from the product list, they are directed to a page displaying detailed information about that product.
+    * This page includes the product name, brand, and expiration date.
+    
 For Developers:
-This website is built using the Flask web framework and SQLAlchemy for database management. Here's how you can set up the project locally:
+This website is built using the Flask web framework and SQLAlchemy for database management. 
+Here's how you can set up the project locally:
 
 Clone the repository:
 
-bash
-Copy code
-git clone <repository-url>
+    git clone <repository-url>
+
+    
 Install dependencies:
 
-Copy code
-pip install -r requirements.txt
+    pip install -r requirements.txt
+
 Configure the database:
 
-Set up a local database and update the SQLALCHEMY_DATABASE_URI in the Flask app configuration (app.py) accordingly.
+    Set up a local database and update the SQLALCHEMY_DATABASE_URI in the Flask app configuration (app.py) accordingly.
+    
 Run the Flask application:
 
-Copy code
-python app.py
+    python app.py
+    
 Access the website in your browser:
 
-arduino
-Copy code
-http://localhost:5000/
+    http://localhost:5000/
+    
 Contributors:
-[Your Name] - Developer
+
+      Abdelrhman Mohamed - Developer
+      
 License:
-This project is licensed under the MIT License.
+
+      This project is licensed under the MIT License.
 
 Support:
-For any inquiries or assistance, please contact [merchant-email].
+
+    For any inquiries or assistance, please contact bedoabdelmoaty@gmail.com.
 
 Thank you for visiting Cosmetic Boutique! We hope you enjoy exploring our range of cosmetic products.
