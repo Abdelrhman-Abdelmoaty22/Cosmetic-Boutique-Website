@@ -1,7 +1,7 @@
 # Cosmetic-Boutique-Website
 Welcome to the Cosmetic Boutique website! This platform is designed to showcase a variety of cosmetic products and brands offered by our merchant. Here's a guide on how to navigate and use the website effectively:
 
-Features:
+# Features:
 
   1. Home Page:
 
@@ -37,7 +37,7 @@ For Developers:
 This website is built using the Flask web framework and SQLAlchemy for database management. 
 Here's how you can set up the project locally:
 
-Clone the repository:
+# Clone the repository:
 
     git clone <https://github.com/Abdelrhman-Abdelmoaty22/Cosmetic-Boutique-Website/tree/main>
 
@@ -45,7 +45,7 @@ Configure the database:
 
     Set up a local database and update the SQLALCHEMY_DATABASE_URI in the Flask app configuration (app.py) accordingly.
     
-Run the Flask application:
+# Run the Flask application:
 
     python app.py
     
@@ -53,15 +53,15 @@ Access the website in your browser:
 
     http://localhost:5000/
     
-Contributors:
+# Contributors:
 
       Abdelrhman Mohamed - Developer
       
-License:
+# License:
 
       This project is licensed under the MIT License.
 
-Support:
+# Support:
 
     For any inquiries or assistance, please contact bedoabdelmoaty@gmail.com.
 
